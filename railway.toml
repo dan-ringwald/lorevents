@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "bundle exec rails server -b 0.0.0.0 -p 3000"
+
+[env]
+RAILS_ENV = "production"
