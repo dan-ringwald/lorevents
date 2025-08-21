@@ -1,24 +1,25 @@
-# README
+# Lorevents
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Aperçu général
 
-Things you may want to cover:
+## Déploiement local
 
-* Ruby version
+ruby 3.4.5 à installer 
+gem rails 8.0.2.1 à installer
 
-* System dependencies
+Ensuite:
+```
+bundle install
+rails server
+```
 
-* Configuration
+## Déploiement Railway
 
-* Database creation
+Le déploiement est branch-based avec github, il faut pusher sur la branche main pour déployer en production
+TODO: Faire une branche preview et dev pour déployer en test et developper des features.
 
-* Database initialization
+## Memo pour Swann
 
-* How to run the test suite
+`git status` : voir où en est git
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
